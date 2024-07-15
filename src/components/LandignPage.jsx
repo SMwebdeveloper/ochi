@@ -21,8 +21,8 @@ function LandignPage() {
       </div>
       <div className="border-t-[1px] border-zinc-800 mt-32 text-sm font-light uppercase flex items-center justify-between py-5 px-20">
         {["For public and private companies", "For the first pich to IPO"].map(
-          (item) => (
-            <p className="text-md font-light tracking-tight leaiding-none">
+          (item, index) => (
+            <p key={index} className="text-md font-light tracking-tight leaiding-none">
               {item}
             </p>
           )
