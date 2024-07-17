@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full p-20 bg-[#cdea68] rounded-t-3xl text-black">
+    <div  className="w-full p-20 bg-[#cdea68] rounded-t-3xl text-black">
       <h1 className="text-[3vw] leading-[3.5vw] tracking-tight">
         Ochi is a strategic partner for fast-grow­ing tech businesses that need
         to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great
